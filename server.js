@@ -9,7 +9,7 @@ dotenv.config();
 
 app.use(express.json());
 app.use(cors({
-  origin: 'https://ticket-booking-frontend-2qjw.vercel.app/',
+  origin: 'https://ticket-booking-frontend-2qjw.vercel.app',
 }));
 
 connectDB();
