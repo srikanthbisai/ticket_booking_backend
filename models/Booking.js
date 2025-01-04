@@ -1,4 +1,3 @@
-// models/Booking.js
 import mongoose from "mongoose";
 
 const BookingSchema = new mongoose.Schema({
